@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "Ubuntu", sans-serif;
+}
+
+body {
+  background-image: url("galeri/bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 33vh;
+}
+
+.semua {
+  background-color: rgba(255, 255, 255, 0.267);
+  width: 300px;
+  height: auto;
+  margin: 135px auto 0;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.358);
+}
+
+.atas {
+  padding: 25px 0;
+}
+
+.atas input {
+  border: none;
+  border-radius: 10px;
+  width: 55%;
+  padding: 5px 10px;
+  font-weight: 500;
+  font-size: 0.9rem;
+  margin-right: 8px;
+}
+
+#cari,
+#lokasi {
+  background-color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  margin-left: 5px;
+  color: #212a3e;
+}
+
+#cari:hover,
+#lokasi:hover {
+  background-color: #212a3e8e;
+  color: white;
+}
+
+.tengah {
+  margin-top: 10px;
+  padding-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: none;
+}
+
+.tengah h1,
+.tengah h2,
+.tengah h3,
+.tengah h4 {
+  color: #212a3e;
+}
+
+.tengah h1 {
+  font-size: 4.5rem;
+  position: relative;
+}
+
+.tengah h2 {
+  font-size: 1.6rem;
+  margin-top: 3px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.tengah h3,
+.tengah h4 {
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.tengah h3 {
+  margin-top: 30px;
+  font-size: 1.3rem;
+}
+
+.tengah h4 {
+  font-size: 1rem;
+}
+
+.eror {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: none;
+}
+
+.eror h3 {
+  color: #212a3e99;
+  font-size: 1.3rem;
+}
+
+.eror img {
+  height: 100px;
+  margin: 15px 0;
+}
+
+@media (max-width: 1000px) {
+  html {
+    font-size: 80%;
+  }
+
+  body {
+    height: 77vh;
+  }
+}
+
+@media (max-width: 670px) {
+  html {
+    font-size: 80%;
+  }
+}
