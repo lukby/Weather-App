@@ -37,25 +37,6 @@ body {
   padding: 5px 10px;
   font-weight: 500;
   font-size: 0.9rem;
-  margin-right: 8px;
-}
-
-#cari,
-#lokasi {
-  background-color: white;
-  border: none;
-  border-radius: 50px;
-  padding: 5px 10px;
-  cursor: pointer;
-  font-size: 0.8rem;
-  margin-left: 5px;
-  color: #212a3e;
-}
-
-#cari:hover,
-#lokasi:hover {
-  background-color: #212a3e8e;
-  color: white;
 }
 
 .tengah {
